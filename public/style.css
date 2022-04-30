@@ -148,6 +148,42 @@ form .pwd-cont input {
     font-size: 50px;
     margin: 1em;
 }
+.userdata {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    background:#f0db00;
+    padding: 1em;
+}
+.userbuttons  {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.userbuttons a, .userbuttons button {
+    align-items: center;
+    background:#f0db00;
+    padding: .5em;
+    color:#231F20;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    font-size: 16px;
+    transition: .5s;
+}
+.userbuttons a:hover {
+    background: #231F20;
+    color: #f0db00;
+}
+.userbuttons button:hover {
+    background: #B40A1B;
+    color: #fff;
+
+}
 
  footer {
     background: #231F20;
