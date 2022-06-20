@@ -1,1 +1,1 @@
-# synergy
+# My first laravel app
